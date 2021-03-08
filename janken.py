@@ -1,11 +1,11 @@
 import random
 
-def play() :
+def play():
     user = input("what's your choice? choki for c, goo for g, paa for p\n")
     computer = random.choice(['c', 'g', 'p'])
 
     if user == computer:
-        return 'aiko!!!!'
+        return "aiko!!!!"
 
     if judge_winner(user, computer):
         return "You Win!!!"
