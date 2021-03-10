@@ -12,7 +12,7 @@ def play():
 
     return "You Lose!!!"    
 
-// 勝った時にtrueを返す
+##勝った時にtrueを返す
 def judge_winner(player, opponent):
     if (player == 'c' and opponent == 'p') or (player == 'p' and opponent == 'g') or (player =='g' and opponent == 'c'):
        return True
