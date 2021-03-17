@@ -7,6 +7,7 @@ def play():
     if user == computer:
         return "aiko!!!!"
 
+    ##trueの時だけreturn
     if judge_winner(user, computer):
         return "You Win!!!"
 
