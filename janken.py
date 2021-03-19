@@ -4,6 +4,7 @@ def play():
     user = input("what's your choice? choki for c, goo for g, paa for p\n")
     computer = random.choice(['c', 'g', 'p'])
 
+    ##あいこの時
     if user == computer:
         return "aiko!!!!"
 
